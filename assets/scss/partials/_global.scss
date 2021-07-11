@@ -1,0 +1,74 @@
+$white-color:#fff;
+$primary-color: Red;
+$secondary-color: black;
+
+.primary-button{
+    background: $primary-color;
+    padding: 8px 20px;
+    color: $white-color;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all .2s ease;
+    &:hover{
+        color: $primary-color;
+        background: transparent;
+        border:1px solid $primary-color;
+    }
+}
+.secondory-button{
+   background: $primary-color;
+   color: white;
+   padding: 5px 10px;
+   border: none;
+   outline: none;
+   font-size: 12px;
+   cursor: pointer;
+   margin-top: 5px;
+
+}
+section{
+    padding: 40px 0;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.main_heading {
+    max-width: 400px;
+    &.center{
+        margin: 0 auto;
+    }
+  
+    h2{
+        position: relative;
+        padding-bottom: 0px;
+        font-weight: 700;
+        
+    }
+    
+}
+.discription-main{
+    margin-top: 30px;
+}
+.underline{
+    &:after{
+        content: '';
+        position: absolute;
+        bottom: -10px;
+        left: 0px;
+        display: inline-block;
+        height: 2px;
+        width: 90px;
+        background: $primary-color;
+    }
+}
+.margin-small-top{
+    margin-top: 60px;
+}
+.slogen
+{
+    position: relative;
+    margin: 5px 0;
+    
+}
